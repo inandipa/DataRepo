@@ -21,13 +21,15 @@ home.get('/',function (req,res) {
   console.log(uid);
   if(uid == undefined || uid == null ||uid == ""){
     res.json({status:200 , message: "invalid user", error: "invalid request"})
+  }else{
+    var userRef = firebase.database().ref("/" + uid);
+
+    userRef.on('value', function (snapshot) {
+      console.log(snapshot.val());
+      res.json(snapshot.val());
+    });
   }
 
-  var userRef = firebase.database().ref("/" + uid);
 
-  userRef.on('value', function (snapshot) {
-    console.log(snapshot.val());
-    res.json(snapshot.val());
-  });
 });
 module.exports = home;
