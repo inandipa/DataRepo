@@ -1,4 +1,5 @@
 var express = require('express');
+fileSystem = require('fs');
 var path = require('path');
 var favicon = require('serve-favicon');
 var logger = require('morgan');
@@ -33,6 +34,11 @@ app.use(express.static(path.join(__dirname, 'public')));
 //   app.redirect('/signup');
 
 // });
+
+app.get('/loaderio-58517f6f3666e1408776dabb6cd93fff',function (req,res) {
+  var filePath = path.join('./loader_token/token.txt');
+  fileSystem.createReadStream(filePath).pipe(res);
+});
 
 app.use('/signup',signup);
 app.use('/login',login);
