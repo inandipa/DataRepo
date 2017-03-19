@@ -1,0 +1,93 @@
+
+> datarepo@0.0.0 start /home/ec2-user/home/Git/DataRepo
+> node ./bin/www
+
+signup.js
+home.js
+login.js
+undefined
+[0mGET /home [32m200 [0m9.197 ms - 65[0m
+
+> datarepo@0.0.0 start /home/ec2-user/home/Git/DataRepo
+> node ./bin/www
+
+signup.js
+home.js
+login.js
+undefined
+[0mGET /home [36m304 [0m13.729 ms - -[0m
+undefined
+[0mGET /home [36m304 [0m1.686 ms - -[0m
+undefined
+[0mGET /home [36m304 [0m0.996 ms - -[0m
+
+> datarepo@0.0.0 start /home/ec2-user/home/Git/DataRepo
+> node ./bin/www
+
+signup.js
+home.js
+login.js
+undefined
+[0mGET /home [36m304 [0m13.380 ms - -[0m
+8dsYRCNiqFVD5VahedV9pFywBx63
+{ Address: { home: 'egrdg', other: 'erthdv', work: 'aesgrdgfnh' },
+  DOB: '23-01-1993',
+  EmailID: 
+   { home: 'dfsds',
+     personal: 'ergthhtrgsdavfb',
+     work: 'fgrethgrsefavf' },
+  Facebook: 'whetrrgeafdvxbgn',
+  FathersName: 'Srinivalusu reddy',
+  FirstName: 'indra kiran reddy',
+  GovernmentID: 
+   { AadharCard: 'ytgyhuinh hfytgyhui',
+     DrivingLicence: 'gtthrgdvxg',
+     VoterCard: '3456785434567876543234567' },
+  LastName: 'Nandipati',
+  LinkdIn: 'dwwgrehtrsdcz',
+  Mobile: { home: 'egrdg', mobile: 'erthdv', work: 'aesgrdgfnh' },
+  MothersName: 'KrishnaKumari' }
+[0mGET /home?uid=8dsYRCNiqFVD5VahedV9pFywBx63 [32m200 [0m416.415 ms - 525[0m
+
+> datarepo@0.0.0 start /home/ec2-user/home/Git/DataRepo
+> node ./bin/www
+
+signup.js
+home.js
+login.js
+undefined
+[0mGET /home [36m304 [0m13.353 ms - -[0m
+[0mGET / [33m404 [0m304.374 ms - 1018[0m
+[0mGET / [33m404 [0m42.197 ms - 1018[0m
+[0mGET / [33m404 [0m35.345 ms - 1018[0m
+[0mGET /stylesheets/style.css [32m200 [0m3.735 ms - 111[0m
+[0mGET /favicon.ico [33m404 [0m33.324 ms - 1018[0m
+[0mGET / [33m404 [0m46.183 ms - 1018[0m
+[0mGET /stylesheets/style.css [32m200 [0m1.308 ms - 111[0m
+[0mGET /favicon.ico [33m404 [0m34.496 ms - 1018[0m
+
+> datarepo@0.0.0 start /home/ec2-user/home/Git/DataRepo
+> node ./bin/www
+
+signup.js
+home.js
+login.js
+8dsYRCNiqFVD5VahedV9pFywBx63
+{ Address: { home: 'egrdg', other: 'erthdv', work: 'aesgrdgfnh' },
+  DOB: '23-01-1993',
+  EmailID: 
+   { home: 'dfsds',
+     personal: 'ergthhtrgsdavfb',
+     work: 'fgrethgrsefavf' },
+  Facebook: 'whetrrgeafdvxbgn',
+  FathersName: 'Srinivalusu reddy',
+  FirstName: 'indra kiran reddy',
+  GovernmentID: 
+   { AadharCard: 'ytgyhuinh hfytgyhui',
+     DrivingLicence: 'gtthrgdvxg',
+     VoterCard: '3456785434567876543234567' },
+  LastName: 'Nandipati',
+  LinkdIn: 'dwwgrehtrsdcz',
+  Mobile: { home: 'egrdg', mobile: 'erthdv', work: 'aesgrdgfnh' },
+  MothersName: 'KrishnaKumari' }
+[0mGET /home?uid=8dsYRCNiqFVD5VahedV9pFywBx63 [32m200 [0m387.452 ms - 525[0m
